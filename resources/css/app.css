@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+
+/*!
+ * AdminLTE v2.4.18 (https://adminlte.io)
+ * License MIT (https://github.com/almasaeed2010/AdminLTE/blob/master/LICENSE)
+ */
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    background: #ecf0f5;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background: #ecf0f5;
+}
+
+.register-page,
+.login-page {
+    background-color: #ecf0f5;
+}
+
+.register-box,
+.login-box {
+    width: 360px;
+    margin: 7% auto;
+}
+
+.register-logo,
+.login-logo {
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.register-logo a,
+.login-logo a {
+    color: #444;
+}
+
+.register-box-msg,
+.login-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+@media (max-width: 991px) {
+    .register-box,
+    .login-box {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
